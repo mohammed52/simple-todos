@@ -97,7 +97,12 @@ fieldset[disabled] .btn-colors.active {
   color: #F7982E;
   background-color: #FFF3E6; }
 
-/* CSS declarations go here */
+.user-name {
+  background-color: lightgreen; }
+
+.task-title {
+  background-color: lightblue; }
+
 .container {
   max-width: 600px;
   margin: 0 auto;

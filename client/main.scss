@@ -3,9 +3,16 @@
 @import "partials/misc";
 @import "partials/bottom";
 
-/* CSS declarations go here */
 
- 
+
+.user-name{
+  background-color: lightgreen
+}
+
+.task-title{
+  background-color: lightblue
+}
+
 .container {
   max-width: 600px;
   margin: 0 auto;
