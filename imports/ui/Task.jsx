@@ -45,10 +45,17 @@ export default class Task extends Component {
             { this.props.task.private ? 'Private' : 'Public' }
           </button>
         ) : ''}
-
+        
         <span className="text">
-          <strong>{this.props.task.username}</strong>: {this.props.task.text}
+          <strong className="user-name">{this.props.task.username}</strong>
+          <strong  className="user-name">:</strong>
+          <span> </span>
+          <span className="task-title">{this.props.task.text}</span>
+          <span> </span>
+          <span>Hello World-2</span>
         </span>
+        
+
       </li>
     );
 
